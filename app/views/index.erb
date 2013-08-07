@@ -1,0 +1,66 @@
+<div class="container">
+  <h1>Welcome to Sinatra!</h1>
+  <p>You're in the index!</p>
+
+
+<!--     <form id="get" action="/cool_url" method="get">
+      <input type="text" name="message">
+      <input type="submit">
+    </form> -->
+
+    <form id="post" action="/cool_url" method="post">
+      <input type="text" name="message">
+      <input type="submit">
+    </form>
+
+  <form id="get" action="/cool_url" method="get">
+    <input type="text" name="message">
+    <br>
+    <input type="radio" name="nakama1" value="Luffy">Luffy<br>
+    <input type="radio" name="nakama1" value="Zoro" checked>Zoro<br>
+    <input type="radio" name="nakama1" value="Nami">Nami<br>
+    <br>
+    <textarea cols="20" rows="20" name="text_box">Here's where you can tell me how much you love One Piece.
+    </textarea>
+    <br>
+    <input type="text" name="post[my_title]">
+    <input type="text" name="post[price]">
+    <textarea name="post[description]"></textarea>
+    <br>
+    <input type="checkbox" name="nakama2" value="Luffy"> Luffy<br>
+    <input type="checkbox" name="nakama2" value="Zoro"> Zoro<br>
+    <input type="checkbox" name="nakama2" value="Nami" checked> Nami<br>
+
+    <select name="nakamadropdown" size="6">
+      <option value="Captain">Luffy</option>
+      <option value="First_Mate">Zoro</option>
+      <option value="Navigator">Nami</option>
+      <option value="Brave_Warrior_of_the_Sea">Usopp</option>
+      <option value="Cook">Sanji</option>
+      <option value="Doctor">Dr. Tony Tony Chopper</option>
+      <option value="Archaeologist">Nico Robin</option>
+      <option value="Shipwright">Franky</option>
+      <option value="Musician">Brook</option>
+    </select>
+    <input type="submit">
+  </form>
+
+
+<!--   <table>
+       <th>File Description</th>
+      <th>File Location</th>
+    </tr>
+    <tr>
+      <td>This view file</td>
+      <td><code><%= __FILE__.gsub(Sinatra::Application.root, '') %></code></td>
+    </tr>
+    <tr>
+      <td>The layout file</td>
+      <td><code><%= File.expand_path('../layout.erb', __FILE__).gsub(Sinatra::Application.root, '') %></code></td>
+    </tr>
+    <tr>
+      <td>The current controller</td>
+      <td><code><%= File.expand_path('../../controllers/index.rb', __FILE__).gsub(Sinatra::Application.root, '') %></code></td>
+    </tr>
+  </table> -->
+</div>
